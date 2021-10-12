@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem Statement 2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <header><h1>Problem Statement 2</h1></header>
+
+      <h2>Problem Statement</h2>
+      <p>
+        Write a code in any programming language that converts 
+        Centigrade to Fahrenheit
+      </p>
+
+      <hr />
+
+      <h2>Code</h2>
+      <pre>
+        <code>
+          #include &lt;bits/stdc++.h&gt;
+          using namespace std;
+          int main()
+          {
+              int <var>centigrade;</var>
+
+              cout << "Enter Temperature in centigrade : ";
+              cin >> centigrade;
+
+              int <var>fahrenheit</var> = (int)((double)9/5 * centigrade) + 32;
+
+              cout << fahrenheit;
+
+          }
+          
+        </code>
+      </pre>
+
+      <hr />
+
+      <h2>Sample Input</h2>
+      <pre>
+        <kbd>
+          45
+        </kbd>
+      </pre>
+
+      <hr />
+
+      <h2>Sample Output</h2>
+      <pre>
+        <samp>
+          113
+        </samp>
+      </pre>
+
+      <hr />
+
+      <h2>Time Complexity</h2>
+      <pre>
+        <code>
+          O(1)
+        </code>
+      </pre>
+
+      <footer>&copy; T1 - 2019BTECS00035</footer>
+    </div>
+  </body>
+</html>

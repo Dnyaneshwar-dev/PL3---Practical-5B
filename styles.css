@@ -1,0 +1,27 @@
+header,
+nav,
+footer,
+.quote {
+  text-align: center;
+}
+
+.thumbnail {
+  width: 200px;
+  border-radius: 5%;
+}
+
+.blog {
+  text-align: center;
+  background-color: rgb(247, 250, 60);
+  width: 70%;
+  margin: auto;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+}
+
+pre {
+  border: 1px solid black;
+}
